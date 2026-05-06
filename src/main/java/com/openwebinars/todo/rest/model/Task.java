@@ -26,8 +26,10 @@ public class Task {
 
     private String title;
 
-    @Lob
+    //@Lob
+    @Column(columnDefinition = "TEXT")
     private String description;
+
 
     private LocalDateTime deadline;
 
